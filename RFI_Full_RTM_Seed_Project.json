@@ -1,0 +1,1482 @@
+{
+  "schemaVersion": 2,
+  "project": {
+    "id": "project-rfi-full",
+    "name": "RFI BA Workbench Seed Project",
+    "version": "1.0"
+  },
+  "artifacts": [
+    {
+      "id": "act-001",
+      "code": "ACT-001",
+      "type": "ACT",
+      "title": "Customer",
+      "status": "Approved"
+    },
+    {
+      "id": "act-002",
+      "code": "ACT-002",
+      "type": "ACT",
+      "title": "End User",
+      "status": "Approved"
+    },
+    {
+      "id": "act-003",
+      "code": "ACT-003",
+      "type": "ACT",
+      "title": "Authorised User",
+      "status": "Approved"
+    },
+    {
+      "id": "act-004",
+      "code": "ACT-004",
+      "type": "ACT",
+      "title": "The System",
+      "status": "Approved"
+    },
+    {
+      "id": "uc-001",
+      "code": "UC-001",
+      "type": "UC",
+      "title": "Submit RFI",
+      "status": "Approved"
+    },
+    {
+      "id": "fr-001",
+      "code": "FR-001",
+      "type": "FR",
+      "title": "Submit RFI",
+      "status": "Approved",
+      "priority": "Must"
+    },
+    {
+      "id": "us-001",
+      "code": "US-001",
+      "type": "US",
+      "title": "Submit RFI",
+      "status": "Draft"
+    },
+    {
+      "id": "tc-001",
+      "code": "TC-001",
+      "type": "TC",
+      "title": "Submit RFI Verification",
+      "status": "Not Started"
+    },
+    {
+      "id": "uc-002",
+      "code": "UC-002",
+      "type": "UC",
+      "title": "Track RFI",
+      "status": "Approved"
+    },
+    {
+      "id": "fr-002",
+      "code": "FR-002",
+      "type": "FR",
+      "title": "Track RFI",
+      "status": "Approved",
+      "priority": "Must"
+    },
+    {
+      "id": "us-002",
+      "code": "US-002",
+      "type": "US",
+      "title": "Track RFI",
+      "status": "Draft"
+    },
+    {
+      "id": "tc-002",
+      "code": "TC-002",
+      "type": "TC",
+      "title": "Track RFI Verification",
+      "status": "Not Started"
+    },
+    {
+      "id": "uc-003",
+      "code": "UC-003",
+      "type": "UC",
+      "title": "Follow RFI",
+      "status": "Approved"
+    },
+    {
+      "id": "fr-003",
+      "code": "FR-003",
+      "type": "FR",
+      "title": "Follow RFI",
+      "status": "Approved",
+      "priority": "Must"
+    },
+    {
+      "id": "us-003",
+      "code": "US-003",
+      "type": "US",
+      "title": "Follow RFI",
+      "status": "Draft"
+    },
+    {
+      "id": "tc-003",
+      "code": "TC-003",
+      "type": "TC",
+      "title": "Follow RFI Verification",
+      "status": "Not Started"
+    },
+    {
+      "id": "uc-004",
+      "code": "UC-004",
+      "type": "UC",
+      "title": "Access Knowledge Products",
+      "status": "Approved"
+    },
+    {
+      "id": "fr-004",
+      "code": "FR-004",
+      "type": "FR",
+      "title": "Access Knowledge Products",
+      "status": "Approved",
+      "priority": "Must"
+    },
+    {
+      "id": "us-004",
+      "code": "US-004",
+      "type": "US",
+      "title": "Access Knowledge Products",
+      "status": "Draft"
+    },
+    {
+      "id": "tc-004",
+      "code": "TC-004",
+      "type": "TC",
+      "title": "Access Knowledge Products Verification",
+      "status": "Not Started"
+    },
+    {
+      "id": "uc-005",
+      "code": "UC-005",
+      "type": "UC",
+      "title": "Assess RFI",
+      "status": "Approved"
+    },
+    {
+      "id": "fr-005",
+      "code": "FR-005",
+      "type": "FR",
+      "title": "Assess RFI",
+      "status": "Approved",
+      "priority": "Must"
+    },
+    {
+      "id": "us-005",
+      "code": "US-005",
+      "type": "US",
+      "title": "Assess RFI",
+      "status": "Draft"
+    },
+    {
+      "id": "tc-005",
+      "code": "TC-005",
+      "type": "TC",
+      "title": "Assess RFI Verification",
+      "status": "Not Started"
+    },
+    {
+      "id": "uc-006",
+      "code": "UC-006",
+      "type": "UC",
+      "title": "Manage RFI Lifecycle",
+      "status": "Approved"
+    },
+    {
+      "id": "fr-006",
+      "code": "FR-006",
+      "type": "FR",
+      "title": "Manage RFI Lifecycle",
+      "status": "Approved",
+      "priority": "Must"
+    },
+    {
+      "id": "us-006",
+      "code": "US-006",
+      "type": "US",
+      "title": "Manage RFI Lifecycle",
+      "status": "Draft"
+    },
+    {
+      "id": "tc-006",
+      "code": "TC-006",
+      "type": "TC",
+      "title": "Manage RFI Lifecycle Verification",
+      "status": "Not Started"
+    },
+    {
+      "id": "uc-007",
+      "code": "UC-007",
+      "type": "UC",
+      "title": "Create and Manage Tasks",
+      "status": "Approved"
+    },
+    {
+      "id": "fr-007",
+      "code": "FR-007",
+      "type": "FR",
+      "title": "Create and Manage Tasks",
+      "status": "Approved",
+      "priority": "Must"
+    },
+    {
+      "id": "us-007",
+      "code": "US-007",
+      "type": "US",
+      "title": "Create and Manage Tasks",
+      "status": "Draft"
+    },
+    {
+      "id": "tc-007",
+      "code": "TC-007",
+      "type": "TC",
+      "title": "Create and Manage Tasks Verification",
+      "status": "Not Started"
+    },
+    {
+      "id": "uc-008",
+      "code": "UC-008",
+      "type": "UC",
+      "title": "Produce Responses",
+      "status": "Approved"
+    },
+    {
+      "id": "fr-008",
+      "code": "FR-008",
+      "type": "FR",
+      "title": "Produce Responses",
+      "status": "Approved",
+      "priority": "Must"
+    },
+    {
+      "id": "us-008",
+      "code": "US-008",
+      "type": "US",
+      "title": "Produce Responses",
+      "status": "Draft"
+    },
+    {
+      "id": "tc-008",
+      "code": "TC-008",
+      "type": "TC",
+      "title": "Produce Responses Verification",
+      "status": "Not Started"
+    },
+    {
+      "id": "uc-009",
+      "code": "UC-009",
+      "type": "UC",
+      "title": "Collaborate in Confluence",
+      "status": "Approved"
+    },
+    {
+      "id": "fr-009",
+      "code": "FR-009",
+      "type": "FR",
+      "title": "Collaborate in Confluence",
+      "status": "Approved",
+      "priority": "Must"
+    },
+    {
+      "id": "us-009",
+      "code": "US-009",
+      "type": "US",
+      "title": "Collaborate in Confluence",
+      "status": "Draft"
+    },
+    {
+      "id": "tc-009",
+      "code": "TC-009",
+      "type": "TC",
+      "title": "Collaborate in Confluence Verification",
+      "status": "Not Started"
+    },
+    {
+      "id": "uc-010",
+      "code": "UC-010",
+      "type": "UC",
+      "title": "Create Knowledge Articles",
+      "status": "Approved"
+    },
+    {
+      "id": "fr-010",
+      "code": "FR-010",
+      "type": "FR",
+      "title": "Create Knowledge Articles",
+      "status": "Approved",
+      "priority": "Must"
+    },
+    {
+      "id": "us-010",
+      "code": "US-010",
+      "type": "US",
+      "title": "Create Knowledge Articles",
+      "status": "Draft"
+    },
+    {
+      "id": "tc-010",
+      "code": "TC-010",
+      "type": "TC",
+      "title": "Create Knowledge Articles Verification",
+      "status": "Not Started"
+    },
+    {
+      "id": "uc-011",
+      "code": "UC-011",
+      "type": "UC",
+      "title": "Search Intelligence Products",
+      "status": "Approved"
+    },
+    {
+      "id": "fr-011",
+      "code": "FR-011",
+      "type": "FR",
+      "title": "Search Intelligence Products",
+      "status": "Approved",
+      "priority": "Must"
+    },
+    {
+      "id": "us-011",
+      "code": "US-011",
+      "type": "US",
+      "title": "Search Intelligence Products",
+      "status": "Draft"
+    },
+    {
+      "id": "tc-011",
+      "code": "TC-011",
+      "type": "TC",
+      "title": "Search Intelligence Products Verification",
+      "status": "Not Started"
+    },
+    {
+      "id": "uc-012",
+      "code": "UC-012",
+      "type": "UC",
+      "title": "Generate Reports",
+      "status": "Approved"
+    },
+    {
+      "id": "fr-012",
+      "code": "FR-012",
+      "type": "FR",
+      "title": "Generate Reports",
+      "status": "Approved",
+      "priority": "Must"
+    },
+    {
+      "id": "us-012",
+      "code": "US-012",
+      "type": "US",
+      "title": "Generate Reports",
+      "status": "Draft"
+    },
+    {
+      "id": "tc-012",
+      "code": "TC-012",
+      "type": "TC",
+      "title": "Generate Reports Verification",
+      "status": "Not Started"
+    },
+    {
+      "id": "uc-013",
+      "code": "UC-013",
+      "type": "UC",
+      "title": "Maintain Knowledge Structures",
+      "status": "Approved"
+    },
+    {
+      "id": "fr-013",
+      "code": "FR-013",
+      "type": "FR",
+      "title": "Maintain Knowledge Structures",
+      "status": "Approved",
+      "priority": "Must"
+    },
+    {
+      "id": "us-013",
+      "code": "US-013",
+      "type": "US",
+      "title": "Maintain Knowledge Structures",
+      "status": "Draft"
+    },
+    {
+      "id": "tc-013",
+      "code": "TC-013",
+      "type": "TC",
+      "title": "Maintain Knowledge Structures Verification",
+      "status": "Not Started"
+    },
+    {
+      "id": "uc-014",
+      "code": "UC-014",
+      "type": "UC",
+      "title": "Manage Metadata",
+      "status": "Approved"
+    },
+    {
+      "id": "fr-014",
+      "code": "FR-014",
+      "type": "FR",
+      "title": "Manage Metadata",
+      "status": "Approved",
+      "priority": "Must"
+    },
+    {
+      "id": "us-014",
+      "code": "US-014",
+      "type": "US",
+      "title": "Manage Metadata",
+      "status": "Draft"
+    },
+    {
+      "id": "tc-014",
+      "code": "TC-014",
+      "type": "TC",
+      "title": "Manage Metadata Verification",
+      "status": "Not Started"
+    },
+    {
+      "id": "uc-015",
+      "code": "UC-015",
+      "type": "UC",
+      "title": "Define Taxonomies",
+      "status": "Approved"
+    },
+    {
+      "id": "fr-015",
+      "code": "FR-015",
+      "type": "FR",
+      "title": "Define Taxonomies",
+      "status": "Approved",
+      "priority": "Must"
+    },
+    {
+      "id": "us-015",
+      "code": "US-015",
+      "type": "US",
+      "title": "Define Taxonomies",
+      "status": "Draft"
+    },
+    {
+      "id": "tc-015",
+      "code": "TC-015",
+      "type": "TC",
+      "title": "Define Taxonomies Verification",
+      "status": "Not Started"
+    },
+    {
+      "id": "uc-016",
+      "code": "UC-016",
+      "type": "UC",
+      "title": "Manage Operational Data",
+      "status": "Approved"
+    },
+    {
+      "id": "fr-016",
+      "code": "FR-016",
+      "type": "FR",
+      "title": "Manage Operational Data",
+      "status": "Approved",
+      "priority": "Must"
+    },
+    {
+      "id": "us-016",
+      "code": "US-016",
+      "type": "US",
+      "title": "Manage Operational Data",
+      "status": "Draft"
+    },
+    {
+      "id": "tc-016",
+      "code": "TC-016",
+      "type": "TC",
+      "title": "Manage Operational Data Verification",
+      "status": "Not Started"
+    },
+    {
+      "id": "uc-017",
+      "code": "UC-017",
+      "type": "UC",
+      "title": "Manage Jira Assets",
+      "status": "Approved"
+    },
+    {
+      "id": "fr-017",
+      "code": "FR-017",
+      "type": "FR",
+      "title": "Manage Jira Assets",
+      "status": "Approved",
+      "priority": "Must"
+    },
+    {
+      "id": "us-017",
+      "code": "US-017",
+      "type": "US",
+      "title": "Manage Jira Assets",
+      "status": "Draft"
+    },
+    {
+      "id": "tc-017",
+      "code": "TC-017",
+      "type": "TC",
+      "title": "Manage Jira Assets Verification",
+      "status": "Not Started"
+    },
+    {
+      "id": "uc-018",
+      "code": "UC-018",
+      "type": "UC",
+      "title": "Configure JSM Workflows",
+      "status": "Approved"
+    },
+    {
+      "id": "fr-018",
+      "code": "FR-018",
+      "type": "FR",
+      "title": "Configure JSM Workflows",
+      "status": "Approved",
+      "priority": "Must"
+    },
+    {
+      "id": "us-018",
+      "code": "US-018",
+      "type": "US",
+      "title": "Configure JSM Workflows",
+      "status": "Draft"
+    },
+    {
+      "id": "tc-018",
+      "code": "TC-018",
+      "type": "TC",
+      "title": "Configure JSM Workflows Verification",
+      "status": "Not Started"
+    },
+    {
+      "id": "uc-019",
+      "code": "UC-019",
+      "type": "UC",
+      "title": "Configure Permissions",
+      "status": "Approved"
+    },
+    {
+      "id": "fr-019",
+      "code": "FR-019",
+      "type": "FR",
+      "title": "Configure Permissions",
+      "status": "Approved",
+      "priority": "Must"
+    },
+    {
+      "id": "us-019",
+      "code": "US-019",
+      "type": "US",
+      "title": "Configure Permissions",
+      "status": "Draft"
+    },
+    {
+      "id": "tc-019",
+      "code": "TC-019",
+      "type": "TC",
+      "title": "Configure Permissions Verification",
+      "status": "Not Started"
+    },
+    {
+      "id": "uc-020",
+      "code": "UC-020",
+      "type": "UC",
+      "title": "Configure Automation",
+      "status": "Approved"
+    },
+    {
+      "id": "fr-020",
+      "code": "FR-020",
+      "type": "FR",
+      "title": "Configure Automation",
+      "status": "Approved",
+      "priority": "Must"
+    },
+    {
+      "id": "us-020",
+      "code": "US-020",
+      "type": "US",
+      "title": "Configure Automation",
+      "status": "Draft"
+    },
+    {
+      "id": "tc-020",
+      "code": "TC-020",
+      "type": "TC",
+      "title": "Configure Automation Verification",
+      "status": "Not Started"
+    },
+    {
+      "id": "uc-021",
+      "code": "UC-021",
+      "type": "UC",
+      "title": "Perform Auditing",
+      "status": "Approved"
+    },
+    {
+      "id": "fr-021",
+      "code": "FR-021",
+      "type": "FR",
+      "title": "Perform Auditing",
+      "status": "Approved",
+      "priority": "Must"
+    },
+    {
+      "id": "us-021",
+      "code": "US-021",
+      "type": "US",
+      "title": "Perform Auditing",
+      "status": "Draft"
+    },
+    {
+      "id": "tc-021",
+      "code": "TC-021",
+      "type": "TC",
+      "title": "Perform Auditing Verification",
+      "status": "Not Started"
+    },
+    {
+      "id": "uc-022",
+      "code": "UC-022",
+      "type": "UC",
+      "title": "Governance Reports",
+      "status": "Approved"
+    },
+    {
+      "id": "fr-022",
+      "code": "FR-022",
+      "type": "FR",
+      "title": "Governance Reports",
+      "status": "Approved",
+      "priority": "Must"
+    },
+    {
+      "id": "us-022",
+      "code": "US-022",
+      "type": "US",
+      "title": "Governance Reports",
+      "status": "Draft"
+    },
+    {
+      "id": "tc-022",
+      "code": "TC-022",
+      "type": "TC",
+      "title": "Governance Reports Verification",
+      "status": "Not Started"
+    },
+    {
+      "id": "uc-023",
+      "code": "UC-023",
+      "type": "UC",
+      "title": "Manage Compliance",
+      "status": "Approved"
+    },
+    {
+      "id": "fr-023",
+      "code": "FR-023",
+      "type": "FR",
+      "title": "Manage Compliance",
+      "status": "Approved",
+      "priority": "Must"
+    },
+    {
+      "id": "us-023",
+      "code": "US-023",
+      "type": "US",
+      "title": "Manage Compliance",
+      "status": "Draft"
+    },
+    {
+      "id": "tc-023",
+      "code": "TC-023",
+      "type": "TC",
+      "title": "Manage Compliance Verification",
+      "status": "Not Started"
+    },
+    {
+      "id": "uc-024",
+      "code": "UC-024",
+      "type": "UC",
+      "title": "Manage Risks",
+      "status": "Approved"
+    },
+    {
+      "id": "fr-024",
+      "code": "FR-024",
+      "type": "FR",
+      "title": "Manage Risks",
+      "status": "Approved",
+      "priority": "Must"
+    },
+    {
+      "id": "us-024",
+      "code": "US-024",
+      "type": "US",
+      "title": "Manage Risks",
+      "status": "Draft"
+    },
+    {
+      "id": "tc-024",
+      "code": "TC-024",
+      "type": "TC",
+      "title": "Manage Risks Verification",
+      "status": "Not Started"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "r-u-f-1",
+      "sourceId": "uc-001",
+      "targetId": "fr-001",
+      "type": "realized-by"
+    },
+    {
+      "id": "r-f-u-1",
+      "sourceId": "fr-001",
+      "targetId": "us-001",
+      "type": "implemented-by"
+    },
+    {
+      "id": "r-f-t-1",
+      "sourceId": "fr-001",
+      "targetId": "tc-001",
+      "type": "verified-by"
+    },
+    {
+      "id": "r-u-f-2",
+      "sourceId": "uc-002",
+      "targetId": "fr-002",
+      "type": "realized-by"
+    },
+    {
+      "id": "r-f-u-2",
+      "sourceId": "fr-002",
+      "targetId": "us-002",
+      "type": "implemented-by"
+    },
+    {
+      "id": "r-f-t-2",
+      "sourceId": "fr-002",
+      "targetId": "tc-002",
+      "type": "verified-by"
+    },
+    {
+      "id": "r-u-f-3",
+      "sourceId": "uc-003",
+      "targetId": "fr-003",
+      "type": "realized-by"
+    },
+    {
+      "id": "r-f-u-3",
+      "sourceId": "fr-003",
+      "targetId": "us-003",
+      "type": "implemented-by"
+    },
+    {
+      "id": "r-f-t-3",
+      "sourceId": "fr-003",
+      "targetId": "tc-003",
+      "type": "verified-by"
+    },
+    {
+      "id": "r-u-f-4",
+      "sourceId": "uc-004",
+      "targetId": "fr-004",
+      "type": "realized-by"
+    },
+    {
+      "id": "r-f-u-4",
+      "sourceId": "fr-004",
+      "targetId": "us-004",
+      "type": "implemented-by"
+    },
+    {
+      "id": "r-f-t-4",
+      "sourceId": "fr-004",
+      "targetId": "tc-004",
+      "type": "verified-by"
+    },
+    {
+      "id": "r-u-f-5",
+      "sourceId": "uc-005",
+      "targetId": "fr-005",
+      "type": "realized-by"
+    },
+    {
+      "id": "r-f-u-5",
+      "sourceId": "fr-005",
+      "targetId": "us-005",
+      "type": "implemented-by"
+    },
+    {
+      "id": "r-f-t-5",
+      "sourceId": "fr-005",
+      "targetId": "tc-005",
+      "type": "verified-by"
+    },
+    {
+      "id": "r-u-f-6",
+      "sourceId": "uc-006",
+      "targetId": "fr-006",
+      "type": "realized-by"
+    },
+    {
+      "id": "r-f-u-6",
+      "sourceId": "fr-006",
+      "targetId": "us-006",
+      "type": "implemented-by"
+    },
+    {
+      "id": "r-f-t-6",
+      "sourceId": "fr-006",
+      "targetId": "tc-006",
+      "type": "verified-by"
+    },
+    {
+      "id": "r-u-f-7",
+      "sourceId": "uc-007",
+      "targetId": "fr-007",
+      "type": "realized-by"
+    },
+    {
+      "id": "r-f-u-7",
+      "sourceId": "fr-007",
+      "targetId": "us-007",
+      "type": "implemented-by"
+    },
+    {
+      "id": "r-f-t-7",
+      "sourceId": "fr-007",
+      "targetId": "tc-007",
+      "type": "verified-by"
+    },
+    {
+      "id": "r-u-f-8",
+      "sourceId": "uc-008",
+      "targetId": "fr-008",
+      "type": "realized-by"
+    },
+    {
+      "id": "r-f-u-8",
+      "sourceId": "fr-008",
+      "targetId": "us-008",
+      "type": "implemented-by"
+    },
+    {
+      "id": "r-f-t-8",
+      "sourceId": "fr-008",
+      "targetId": "tc-008",
+      "type": "verified-by"
+    },
+    {
+      "id": "r-u-f-9",
+      "sourceId": "uc-009",
+      "targetId": "fr-009",
+      "type": "realized-by"
+    },
+    {
+      "id": "r-f-u-9",
+      "sourceId": "fr-009",
+      "targetId": "us-009",
+      "type": "implemented-by"
+    },
+    {
+      "id": "r-f-t-9",
+      "sourceId": "fr-009",
+      "targetId": "tc-009",
+      "type": "verified-by"
+    },
+    {
+      "id": "r-u-f-10",
+      "sourceId": "uc-010",
+      "targetId": "fr-010",
+      "type": "realized-by"
+    },
+    {
+      "id": "r-f-u-10",
+      "sourceId": "fr-010",
+      "targetId": "us-010",
+      "type": "implemented-by"
+    },
+    {
+      "id": "r-f-t-10",
+      "sourceId": "fr-010",
+      "targetId": "tc-010",
+      "type": "verified-by"
+    },
+    {
+      "id": "r-u-f-11",
+      "sourceId": "uc-011",
+      "targetId": "fr-011",
+      "type": "realized-by"
+    },
+    {
+      "id": "r-f-u-11",
+      "sourceId": "fr-011",
+      "targetId": "us-011",
+      "type": "implemented-by"
+    },
+    {
+      "id": "r-f-t-11",
+      "sourceId": "fr-011",
+      "targetId": "tc-011",
+      "type": "verified-by"
+    },
+    {
+      "id": "r-u-f-12",
+      "sourceId": "uc-012",
+      "targetId": "fr-012",
+      "type": "realized-by"
+    },
+    {
+      "id": "r-f-u-12",
+      "sourceId": "fr-012",
+      "targetId": "us-012",
+      "type": "implemented-by"
+    },
+    {
+      "id": "r-f-t-12",
+      "sourceId": "fr-012",
+      "targetId": "tc-012",
+      "type": "verified-by"
+    },
+    {
+      "id": "r-u-f-13",
+      "sourceId": "uc-013",
+      "targetId": "fr-013",
+      "type": "realized-by"
+    },
+    {
+      "id": "r-f-u-13",
+      "sourceId": "fr-013",
+      "targetId": "us-013",
+      "type": "implemented-by"
+    },
+    {
+      "id": "r-f-t-13",
+      "sourceId": "fr-013",
+      "targetId": "tc-013",
+      "type": "verified-by"
+    },
+    {
+      "id": "r-u-f-14",
+      "sourceId": "uc-014",
+      "targetId": "fr-014",
+      "type": "realized-by"
+    },
+    {
+      "id": "r-f-u-14",
+      "sourceId": "fr-014",
+      "targetId": "us-014",
+      "type": "implemented-by"
+    },
+    {
+      "id": "r-f-t-14",
+      "sourceId": "fr-014",
+      "targetId": "tc-014",
+      "type": "verified-by"
+    },
+    {
+      "id": "r-u-f-15",
+      "sourceId": "uc-015",
+      "targetId": "fr-015",
+      "type": "realized-by"
+    },
+    {
+      "id": "r-f-u-15",
+      "sourceId": "fr-015",
+      "targetId": "us-015",
+      "type": "implemented-by"
+    },
+    {
+      "id": "r-f-t-15",
+      "sourceId": "fr-015",
+      "targetId": "tc-015",
+      "type": "verified-by"
+    },
+    {
+      "id": "r-u-f-16",
+      "sourceId": "uc-016",
+      "targetId": "fr-016",
+      "type": "realized-by"
+    },
+    {
+      "id": "r-f-u-16",
+      "sourceId": "fr-016",
+      "targetId": "us-016",
+      "type": "implemented-by"
+    },
+    {
+      "id": "r-f-t-16",
+      "sourceId": "fr-016",
+      "targetId": "tc-016",
+      "type": "verified-by"
+    },
+    {
+      "id": "r-u-f-17",
+      "sourceId": "uc-017",
+      "targetId": "fr-017",
+      "type": "realized-by"
+    },
+    {
+      "id": "r-f-u-17",
+      "sourceId": "fr-017",
+      "targetId": "us-017",
+      "type": "implemented-by"
+    },
+    {
+      "id": "r-f-t-17",
+      "sourceId": "fr-017",
+      "targetId": "tc-017",
+      "type": "verified-by"
+    },
+    {
+      "id": "r-u-f-18",
+      "sourceId": "uc-018",
+      "targetId": "fr-018",
+      "type": "realized-by"
+    },
+    {
+      "id": "r-f-u-18",
+      "sourceId": "fr-018",
+      "targetId": "us-018",
+      "type": "implemented-by"
+    },
+    {
+      "id": "r-f-t-18",
+      "sourceId": "fr-018",
+      "targetId": "tc-018",
+      "type": "verified-by"
+    },
+    {
+      "id": "r-u-f-19",
+      "sourceId": "uc-019",
+      "targetId": "fr-019",
+      "type": "realized-by"
+    },
+    {
+      "id": "r-f-u-19",
+      "sourceId": "fr-019",
+      "targetId": "us-019",
+      "type": "implemented-by"
+    },
+    {
+      "id": "r-f-t-19",
+      "sourceId": "fr-019",
+      "targetId": "tc-019",
+      "type": "verified-by"
+    },
+    {
+      "id": "r-u-f-20",
+      "sourceId": "uc-020",
+      "targetId": "fr-020",
+      "type": "realized-by"
+    },
+    {
+      "id": "r-f-u-20",
+      "sourceId": "fr-020",
+      "targetId": "us-020",
+      "type": "implemented-by"
+    },
+    {
+      "id": "r-f-t-20",
+      "sourceId": "fr-020",
+      "targetId": "tc-020",
+      "type": "verified-by"
+    },
+    {
+      "id": "r-u-f-21",
+      "sourceId": "uc-021",
+      "targetId": "fr-021",
+      "type": "realized-by"
+    },
+    {
+      "id": "r-f-u-21",
+      "sourceId": "fr-021",
+      "targetId": "us-021",
+      "type": "implemented-by"
+    },
+    {
+      "id": "r-f-t-21",
+      "sourceId": "fr-021",
+      "targetId": "tc-021",
+      "type": "verified-by"
+    },
+    {
+      "id": "r-u-f-22",
+      "sourceId": "uc-022",
+      "targetId": "fr-022",
+      "type": "realized-by"
+    },
+    {
+      "id": "r-f-u-22",
+      "sourceId": "fr-022",
+      "targetId": "us-022",
+      "type": "implemented-by"
+    },
+    {
+      "id": "r-f-t-22",
+      "sourceId": "fr-022",
+      "targetId": "tc-022",
+      "type": "verified-by"
+    },
+    {
+      "id": "r-u-f-23",
+      "sourceId": "uc-023",
+      "targetId": "fr-023",
+      "type": "realized-by"
+    },
+    {
+      "id": "r-f-u-23",
+      "sourceId": "fr-023",
+      "targetId": "us-023",
+      "type": "implemented-by"
+    },
+    {
+      "id": "r-f-t-23",
+      "sourceId": "fr-023",
+      "targetId": "tc-023",
+      "type": "verified-by"
+    },
+    {
+      "id": "r-u-f-24",
+      "sourceId": "uc-024",
+      "targetId": "fr-024",
+      "type": "realized-by"
+    },
+    {
+      "id": "r-f-u-24",
+      "sourceId": "fr-024",
+      "targetId": "us-024",
+      "type": "implemented-by"
+    },
+    {
+      "id": "r-f-t-24",
+      "sourceId": "fr-024",
+      "targetId": "tc-024",
+      "type": "verified-by"
+    },
+    {
+      "id": "r-a-1",
+      "sourceId": "act-001",
+      "targetId": "uc-001",
+      "type": "relates-to"
+    },
+    {
+      "id": "r-a-2",
+      "sourceId": "act-001",
+      "targetId": "uc-002",
+      "type": "relates-to"
+    },
+    {
+      "id": "r-a-3",
+      "sourceId": "act-001",
+      "targetId": "uc-003",
+      "type": "relates-to"
+    },
+    {
+      "id": "r-a-4",
+      "sourceId": "act-001",
+      "targetId": "uc-004",
+      "type": "relates-to"
+    },
+    {
+      "id": "r-a-5",
+      "sourceId": "act-003",
+      "targetId": "uc-005",
+      "type": "relates-to"
+    },
+    {
+      "id": "r-a-6",
+      "sourceId": "act-003",
+      "targetId": "uc-006",
+      "type": "relates-to"
+    },
+    {
+      "id": "r-a-7",
+      "sourceId": "act-003",
+      "targetId": "uc-007",
+      "type": "relates-to"
+    },
+    {
+      "id": "r-a-8",
+      "sourceId": "act-003",
+      "targetId": "uc-008",
+      "type": "relates-to"
+    },
+    {
+      "id": "r-a-9",
+      "sourceId": "act-003",
+      "targetId": "uc-009",
+      "type": "relates-to"
+    },
+    {
+      "id": "r-a-10",
+      "sourceId": "act-003",
+      "targetId": "uc-010",
+      "type": "relates-to"
+    },
+    {
+      "id": "r-a-11",
+      "sourceId": "act-003",
+      "targetId": "uc-011",
+      "type": "relates-to"
+    },
+    {
+      "id": "r-a-12",
+      "sourceId": "act-003",
+      "targetId": "uc-012",
+      "type": "relates-to"
+    },
+    {
+      "id": "r-a-13",
+      "sourceId": "act-003",
+      "targetId": "uc-013",
+      "type": "relates-to"
+    },
+    {
+      "id": "r-a-14",
+      "sourceId": "act-003",
+      "targetId": "uc-014",
+      "type": "relates-to"
+    },
+    {
+      "id": "r-a-15",
+      "sourceId": "act-003",
+      "targetId": "uc-015",
+      "type": "relates-to"
+    },
+    {
+      "id": "r-a-16",
+      "sourceId": "act-003",
+      "targetId": "uc-016",
+      "type": "relates-to"
+    },
+    {
+      "id": "r-a-17",
+      "sourceId": "act-003",
+      "targetId": "uc-017",
+      "type": "relates-to"
+    },
+    {
+      "id": "r-a-18",
+      "sourceId": "act-003",
+      "targetId": "uc-018",
+      "type": "relates-to"
+    },
+    {
+      "id": "r-a-19",
+      "sourceId": "act-003",
+      "targetId": "uc-019",
+      "type": "relates-to"
+    },
+    {
+      "id": "r-a-20",
+      "sourceId": "act-003",
+      "targetId": "uc-020",
+      "type": "relates-to"
+    },
+    {
+      "id": "r-a-21",
+      "sourceId": "act-003",
+      "targetId": "uc-021",
+      "type": "relates-to"
+    },
+    {
+      "id": "r-a-22",
+      "sourceId": "act-003",
+      "targetId": "uc-022",
+      "type": "relates-to"
+    },
+    {
+      "id": "r-a-23",
+      "sourceId": "act-003",
+      "targetId": "uc-023",
+      "type": "relates-to"
+    },
+    {
+      "id": "r-a-24",
+      "sourceId": "act-003",
+      "targetId": "uc-024",
+      "type": "relates-to"
+    }
+  ],
+  "workflows": [
+    {
+      "id": "wf-001",
+      "name": "Submit RFI",
+      "useCaseId": "uc-001",
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "id": "wf-002",
+      "name": "Track RFI",
+      "useCaseId": "uc-002",
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "id": "wf-003",
+      "name": "Follow RFI",
+      "useCaseId": "uc-003",
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "id": "wf-004",
+      "name": "Access Knowledge Products",
+      "useCaseId": "uc-004",
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "id": "wf-005",
+      "name": "Assess RFI",
+      "useCaseId": "uc-005",
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "id": "wf-006",
+      "name": "Manage RFI Lifecycle",
+      "useCaseId": "uc-006",
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "id": "wf-007",
+      "name": "Create and Manage Tasks",
+      "useCaseId": "uc-007",
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "id": "wf-008",
+      "name": "Produce Responses",
+      "useCaseId": "uc-008",
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "id": "wf-009",
+      "name": "Collaborate in Confluence",
+      "useCaseId": "uc-009",
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "id": "wf-010",
+      "name": "Create Knowledge Articles",
+      "useCaseId": "uc-010",
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "id": "wf-011",
+      "name": "Search Intelligence Products",
+      "useCaseId": "uc-011",
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "id": "wf-012",
+      "name": "Generate Reports",
+      "useCaseId": "uc-012",
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "id": "wf-013",
+      "name": "Maintain Knowledge Structures",
+      "useCaseId": "uc-013",
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "id": "wf-014",
+      "name": "Manage Metadata",
+      "useCaseId": "uc-014",
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "id": "wf-015",
+      "name": "Define Taxonomies",
+      "useCaseId": "uc-015",
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "id": "wf-016",
+      "name": "Manage Operational Data",
+      "useCaseId": "uc-016",
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "id": "wf-017",
+      "name": "Manage Jira Assets",
+      "useCaseId": "uc-017",
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "id": "wf-018",
+      "name": "Configure JSM Workflows",
+      "useCaseId": "uc-018",
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "id": "wf-019",
+      "name": "Configure Permissions",
+      "useCaseId": "uc-019",
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "id": "wf-020",
+      "name": "Configure Automation",
+      "useCaseId": "uc-020",
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "id": "wf-021",
+      "name": "Perform Auditing",
+      "useCaseId": "uc-021",
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "id": "wf-022",
+      "name": "Governance Reports",
+      "useCaseId": "uc-022",
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "id": "wf-023",
+      "name": "Manage Compliance",
+      "useCaseId": "uc-023",
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "id": "wf-024",
+      "name": "Manage Risks",
+      "useCaseId": "uc-024",
+      "nodes": [],
+      "edges": []
+    }
+  ]
+}
